@@ -1,0 +1,52 @@
+/* FOOTER */
+footer {
+  width: 100vw;
+  box-shadow: 0 -5px 40px #00000029;
+  opacity: 1;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.footer-logo {
+  text-align: left;
+  font: normal normal 300 26px/30px Raleway;
+  letter-spacing: 0;
+  color: $projectBlue;
+  opacity: 1;
+  margin-bottom: 6.52px;
+  margin-top: 20.48px;
+}
+
+.footer-copy {
+  text-align: left;
+  font: normal normal normal 11px/15px Open Sans;
+  letter-spacing: 0;
+  color: #A5A5A5;
+  opacity: 1;
+  margin-bottom: 17px;
+}
+
+.footer-twitter {
+  margin-right: 20px;
+}
+
+.footer-twitter div {
+  background-image: url("../images/Twitter.svg");
+  height: 24px;
+  width: 24px;
+}
+
+.footer-facebook div {
+  background-image: url("../images/Facebook.svg");
+  height: 24px;
+  width: 24px;
+}
+
+.footer-right {
+  display: flex;
+}

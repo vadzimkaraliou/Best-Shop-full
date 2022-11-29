@@ -1,0 +1,411 @@
+/* PRICING */
+.pricing {
+  width: 100vw;
+}
+
+.pricing-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: normal normal normal 36px/42px Raleway;
+  color: #000000;
+  opacity: 1;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.all-plans {
+  margin-bottom: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #FB3B64;
+  border-radius: 18px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.basic .plan-title {
+  text-align: left;
+  font: normal normal bold 20px Raleway;
+  letter-spacing: 0;
+  color: #13253B;
+  opacity: 1;
+  margin-top: 34px;
+  margin-right: 160px;
+  margin-left: 161px;
+}
+
+.basic .plan-price {
+  font: normal normal 300 46px Open Sans;
+  letter-spacing: 0;
+  color: #FB3B64;
+  opacity: 1;
+  margin-top: 14px;
+}
+
+.basic li {
+  list-style: none;
+  text-align: center;
+  font: normal normal normal 14px/41px Open Sans;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.basic ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 71px;
+}
+
+.basic a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background: #EB476E 0 0 no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 13px/41px Open Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  position: absolute;
+  transform: translate(0%, 900%);
+}
+
+.basic ul li:first-child::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.basic ul li:nth-child(2)::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.basic ul li:nth-child(3)::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.basic ul li:nth-child(4)::before {
+  content: url("../images/Close.svg");
+  margin-right: 10px;
+}
+
+.basic ul li:nth-child(5)::before {
+  content: url("../images/Close.svg");
+  margin-right: 10px;
+}
+
+.professional {
+  box-shadow: 5px 10px 27px #07ACE629;
+  border: 1px solid #07ACE6;
+  border-radius: 18px;
+  opacity: 1;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 59px;
+  margin-left: 59px;
+  position: relative;
+}
+
+.professional .plan-title {
+  font: normal normal bold 21px Raleway;
+  color: #13253B;
+  opacity: 1;
+  margin: 34px 141px 14px;
+}
+
+.professional .plan-price {
+  font: normal normal 300 46px Open Sans;
+  letter-spacing: 0;
+  color: #07ACE6;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.professional .limited {
+  text-align: left;
+  font: normal normal bold 12px Raleway;
+  letter-spacing: 0;
+  color: #13253B;
+  opacity: 1;
+}
+
+.professional li {
+  list-style: none;
+  text-align: center;
+  font: normal normal normal 14px/41px Open Sans;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.professional ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 61px;
+  margin-bottom: 69px;
+}
+
+.professional a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background: #07ACE6 0 0 no-repeat padding-box;
+  border-radius: 23px;
+  box-shadow: 5px 10px 14px #07ACE629;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 13px/41px Open Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  position: absolute;
+  transform: translate(0%, 930%);
+}
+
+.professional ul li:first-child::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.professional ul li:nth-child(2)::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.professional ul li:nth-child(3)::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.professional ul li:nth-child(4)::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.professional ul li:nth-child(5)::before {
+  content: url("../images/Close.svg");
+  margin-right: 10px;
+}
+
+.premium {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #55DFB4;
+  border-radius: 18px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.premium .plan-title {
+  width: 86px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 20px Raleway;
+  letter-spacing: 0;
+  color: #13253B;
+  opacity: 1;
+  margin-top: 34px;
+  margin-left: 143px;
+  margin-right: 143px;
+}
+
+.premium .plan-price {
+  text-align: left;
+  font: normal normal 300 46px Open Sans;
+  letter-spacing: 0;
+  color: #55DFB4;
+  opacity: 1;
+  margin-top: 14px;
+  margin-bottom: 5px;
+}
+
+.premium .limited {
+  text-align: left;
+  font: normal normal bold 12px Raleway;
+  letter-spacing: 0;
+  color: #13253B;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.premium li {
+  list-style: none;
+  text-align: center;
+  font: normal normal normal 14px/41px Open Sans;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.premium ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 71px;
+}
+
+.premium a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background: #55DFB4 0 0 no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 13px/41px Open Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  position: absolute;
+  transform: translate(0%, 900%);
+}
+
+.premium ul li::before {
+  content: url("../images/Checkmark-1.svg");
+  margin-right: 10px;
+}
+
+.basic_l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prof_l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prem_l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .pricing-title {
+    margin-top: 54px;
+  }
+
+  .all-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .basic {
+    width: 350px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    .basic_l {
+      width: 50%;
+      height: 100%;
+      justify-content: center;
+    }
+
+    .basic_r {
+      width: 50%;
+
+      li {
+        align-self: flex-start;
+        justify-content: center;
+      }
+    }
+
+    a {
+      transform: translate(0%, 340%);
+    }
+  }
+
+  .professional {
+    width: 370px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+    flex-direction: row;
+
+    .prof_l {
+      width: 50%;
+      height: 100%;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .prof_r {
+      width: 50%;
+      margin-bottom: 10px;
+
+
+      li {
+        align-self: flex-start;
+      }
+    }
+
+    a {
+      transform: translate(70%, 340%);
+    }
+  }
+
+  .premium {
+    width: 350px;
+    flex-direction: row;
+
+
+    .prem_l {
+      width: 50%;
+      height: 100%;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .prem_r {
+      margin-top: 40px;
+      width: 50%;
+      height: 100%;
+
+      li {
+
+        padding-top: 25px;
+        line-height: 1;
+        align-self: flex-start;
+      }
+
+}
+    a {
+      transform: translate(70%, 300%);
+    }
+  }
+}

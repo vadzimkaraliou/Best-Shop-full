@@ -1,0 +1,88 @@
+/* menu icon */
+
+.mobile-menu {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.mobile-menu .menu-icon {
+  width: 58px;
+  height: 55px;
+
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 18px 20px;
+  position: relative;
+  user-select: none;
+
+
+  border-radius: 6px;
+}
+
+.mobile-menu .menu-icon .navicon {
+  background: $projectBlue;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 25px;
+}
+
+.mobile-menu .menu-icon .navicon:before,
+.mobile-menu .menu-icon .navicon:after {
+  background: $projectBlue;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.mobile-menu .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.mobile-menu .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.mobile-menu .menu-btn {
+  display: none;
+}
+
+.mobile-menu .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.mobile-menu .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.mobile-menu .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.mobile-menu .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.mobile-menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.mobile-menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 900px) {
+  .mobile-menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .mobile-menu .menu-icon {
+    display: none;
+  }
+}

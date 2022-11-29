@@ -1,0 +1,126 @@
+/* STATISTICS */
+.statistic {
+  height: auto;
+  width: 100vw;
+}
+
+.statistic h2 {
+  margin-top: 100px;
+  text-align: center;
+  font: normal normal normal 36px/42px Raleway;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.icon-title {
+  text-align: center;
+  font: normal normal 800 20px/24px Raleway;
+  letter-spacing: 5.96px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 19px;
+}
+
+.icon-text {
+  text-align: center;
+  font: normal normal normal 17px/20px Raleway;
+  letter-spacing: 0;
+  color: #A5A5A5;
+  opacity: 1;
+  margin-bottom: 121px;
+}
+
+.red-icon div {
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  background-color: $projectPink;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.person {
+  position: absolute;
+  left: 50%;
+}
+
+.red-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.blue-icon div {
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  background-color: $projectBlue;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.eye {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 42%;
+}
+
+.blue-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.green-icon div {
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  background-color: $projectAqua;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.catalog {
+  position: absolute;
+  left: 42%;
+}
+
+.green-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.statistic-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 900px) {
+  .statistic {
+    h2 {
+      padding: 0 36px;
+    }
+  }
+  .statistic-icons {
+    flex-direction: column;
+    justify-content: center;
+
+    .blue-icon {
+      margin-top: -55px;
+    }
+
+    .green-icon {
+      margin-top: -55px;
+      margin-bottom: 50px;
+    }
+  }
+}

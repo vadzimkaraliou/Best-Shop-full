@@ -1,0 +1,201 @@
+/* CONTACTS */
+.contacts {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.contacts-left {
+  margin-right: 126px;
+}
+
+.contacts-left-title {
+  text-align: left;
+  font: normal normal normal 49px Raleway;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.contacts-left-text {
+  text-align: left;
+  font: normal normal normal 16px Open Sans;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+  margin-top: 22px;
+}
+
+.contacts-links {
+  margin-top: 42px;
+  display: flex;
+}
+
+.contacts-links a {
+  text-align: left;
+  font: normal normal  16px Open Sans;
+  letter-spacing: 0;
+  color: #A5A5A5;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.contacts-links img {
+  margin-right: 10px;
+}
+
+.e-mail-btn {
+  margin-right: 20px;
+}
+
+.contacts-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 440px;
+  height: 44px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+input[type="text"] {
+  margin-bottom: 42px;
+}
+
+label {
+  text-align: left;
+  font: normal normal bold 11px/15px Open Sans;
+  letter-spacing: 3.28px;
+  color: $projectBlue;
+  opacity: 1;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox {
+  cursor: pointer;
+  display: flex;
+  text-align: left;
+  font: normal normal normal 12px Open Sans;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+  width: 440px;
+  height: 108px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.checkbox span {
+  height: 24px;
+  flex-shrink: 0;
+  flex-basis: 24px;
+  border: 1px solid #95989A;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.checkbox input:checked + span {
+  background-image: url("../images/Checkmark.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-end {
+  display: inline-flex;
+  padding: 20px 97px;
+  background: $projectBlue 0 0 no-repeat padding-box;
+  box-shadow: 5px 10px 14px #07ACE629;
+  border-radius: 35px;
+  opacity: 1;
+  border: none;
+  text-align: left;
+  font: normal normal bold 13px Open Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-bottom: 59px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .contacts {
+    display: block;
+    width: auto;
+
+    .checkbox {
+      width: 300px;
+      height: 156px;
+    }
+
+    .contacts-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30px;
+      padding-top: 56px;
+    }
+
+    .contacts-left {
+      display: flex;
+      margin-right: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30px;
+    }
+
+    .contacts-links {
+      display: flex;
+      flex-direction: column;
+
+      .e-mail-btn {
+        a {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .phone {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        a {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+}
+}
+
+@media (max-width: 900px) {
+  input[type="email"],
+  input[type="text"]{
+    width: 312px;
+}
+
+  .btn-end {
+    margin-top: 21px;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+}

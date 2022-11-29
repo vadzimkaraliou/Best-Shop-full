@@ -1,0 +1,142 @@
+.calculator {
+  margin-bottom: 150px;
+  margin-top: 150px;
+
+  h2 {
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    margin-bottom: 52px;
+  }
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-left {
+  margin-right: 47px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    input[type="number"] {
+      width: 440px;
+      height: 40px;
+      box-shadow: 0 3px 6px #08A6E429;
+      border: 1px solid #08A6E4;
+      border-radius: 6px;
+      font: normal normal normal 13px/18px Open Sans;
+    }
+
+    select {
+      width: 440px;
+      height: 40px;
+      box-shadow: 0 3px 6px #08A6E429;
+      border: 1px solid #08A6E4;
+      border-radius: 6px;
+      font: normal normal normal 13px/18px Open Sans;
+    }
+
+    input[type="number"] {
+      margin-bottom: 20px;
+      padding-left: 15px;
+    }
+
+    input[type="checkbox"]{
+      margin-top: 20px;
+    }
+  }
+
+}
+
+.d-none {
+  display: none;
+}
+
+.calculator-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 385px;
+  height: 31px;
+  background: #55DFB4 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+  font: normal normal normal 14px/19px Open Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.calc-div-child {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.div6 {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 179px;
+  height: 38px;
+  background: #08A6E4 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+  max-width: 300px;
+
+  &--text {
+  font: normal normal normal 14px/19px Open Sans;
+  color: #FFFFFF;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+  &--amount {
+    font: normal normal 20px/27px Open Sans;
+    color: #FFFFFF;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.accounting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .calculator-left {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .calculator-right {
+    margin: 0 auto;
+  }
+
+}
+
+
+
